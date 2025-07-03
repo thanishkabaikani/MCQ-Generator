@@ -1,0 +1,14 @@
+# Ignore Conda environment folder
+env/
+
+# Ignore general Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
