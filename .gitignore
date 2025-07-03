@@ -1,6 +1,6 @@
 # Ignore Conda environment folder
 env/
-
+.env
 # Ignore general Python cache
 __pycache__/
 *.py[cod]
