@@ -1,0 +1,6 @@
+MCQ,Choices,correct
+What is machine learning?,a: The study of artificial intelligence concerned with developing and studying statistical algorithms | b: The study of robotics and automation | c: The study of quantum computing | d: The study of mechanical engineering,a
+Who coined the term 'machine learning'?,a: Donald Hebb | b: Alan Turing | c: Arthur Samuel | d: Tom M. Mitchell,c
+What is the main goal of machine learning?,a: To predict future outcomes based on known properties | b: To discover unknown properties in the data | c: To reproduce known knowledge | d: To draw population inferences from a sample,a
+What is the relationship between machine learning and data mining?,a: They are completely unrelated fields | b: They both focus on prediction based on known properties | c: Data mining uses machine learning methods for unsupervised learning | d: Machine learning uses data mining methods for preprocessing,d
+What is the core objective of a learner in machine learning?,"a: To memorize the training data set | b: To generalize from its experience and perform accurately on new, unseen examples/tasks | c: To overfit the model to the training data | d: To focus on reproducing known knowledge",b
