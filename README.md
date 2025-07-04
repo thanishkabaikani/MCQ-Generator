@@ -24,4 +24,44 @@ A smart **Multiple Choice Question (MCQ) Generator** built using **OpenAI**, **L
 ---
 
 ## 📂 Project Structure
+mcqgen/
+│
+├── StreamlitAPP.py # Main Streamlit app
+├── chains.py # LangChain chains and prompt templates
+├── utils.py # Utility functions (e.g., JSON export, logging)
+├── logs/
+│ └── timeline.jsonl # Logs of all generations with timestamps
+├── responses/
+│ └── latest_output.json # Stores last generated MCQs
+├── README.md # Project documentation
+└── requirements.txt # Python dependencies
 
+
+---
+
+## 🛠️ Tech Stack
+
+- [OpenAI GPT Models](https://platform.openai.com/)
+- [LangChain](https://www.langchain.com/)
+- [Streamlit](https://streamlit.io/)
+- [Python 3.10+](https://www.python.org/)
+- JSON, Logging
+
+---
+
+## 🧪 How It Works
+
+1. **User Input**: A topic or passage is entered into the Streamlit UI.
+2. **LangChain Prompts**: Sequential chains are used to first extract key concepts, then generate MCQs from them.
+3. **Output**: The MCQs are displayed in the UI, saved in a JSON format, and logged with a timestamp.
+4. **Review**: An optional review/comment can be added for feedback or improvement.
+
+---
+
+## ▶️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/mcqgenerator.git
+cd mcqgenerator
