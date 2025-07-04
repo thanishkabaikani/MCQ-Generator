@@ -23,20 +23,6 @@ A smart **Multiple Choice Question (MCQ) Generator** built using **OpenAI**, **L
 
 ---
 
-## 📂 Project Structure
-mcqgen/
-│
-├── StreamlitAPP.py # Main Streamlit app
-├── chains.py # LangChain chains and prompt templates
-├── utils.py # Utility functions (e.g., JSON export, logging)
-├── logs/
-│ └── timeline.jsonl # Logs of all generations with timestamps
-├── responses/
-│ └── latest_output.json # Stores last generated MCQs
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
-
-
 ---
 
 ## 🛠️ Tech Stack
@@ -58,10 +44,11 @@ mcqgen/
 
 ---
 
-## ▶️ Getting Started
+📌 Future Enhancements
+PDF/Text Upload for content-based MCQ generation
 
-### 1. Clone the repository
+Difficulty level selection
 
-```bash
-git clone https://github.com/yourusername/mcqgenerator.git
-cd mcqgenerator
+Export to CSV/Google Forms
+
+Better UI/UX with themes
