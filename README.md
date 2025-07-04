@@ -45,10 +45,8 @@ A smart **Multiple Choice Question (MCQ) Generator** built using **OpenAI**, **L
 ---
 
 📌 Future Enhancements
+
 PDF/Text Upload for content-based MCQ generation
-
 Difficulty level selection
-
 Export to CSV/Google Forms
-
 Better UI/UX with themes
